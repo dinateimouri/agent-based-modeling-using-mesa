@@ -5,4 +5,4 @@ I use a parameter to define how many of an environment's nodes and landmarks an 
 
 Each agent in simulation starts at the origin node and aims to reach the destination node on the most direct (i.e., shortest) path. The agent's navigation strategy is to take the first route-defining location it finds in the instructions and move to that node using the shortest path if it corresponds to an element it knows, or if the location is a node directly adjacent to the current node. Otherwise, the agent 'searches' for the location by computing the k-th shortest path, where k is a random value between 1 and 10. To avoid arbitrarily long deviations, I limit the length of the k-th shortest path to being no more than three times longer than the shortest path between the agent's current location and the next element in the route-defining locations list.
 
-For more details on the research behind this code, check out my paper [here](https://www.sciencedirect.com/science/article/pii/S0198971521001393) and my thesis [here](https://lnkd.in/diu_Y9sp).
+
